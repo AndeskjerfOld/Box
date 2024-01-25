@@ -1,0 +1,21 @@
+#app {
+	display: inline-grid;
+}
+
+.visible {
+	opacity: 100%;
+	background-color: red;
+}
+
+.col {
+	height: 25px;
+	width: 25px;
+}
+
+.row {
+	display: inline-block;
+}
+
+.row > * {
+	float: left;
+}
